@@ -3,6 +3,19 @@ Demo code for talk on IoT Safety. Blinky - the "Hello World" of IoT. HaHa - the 
 
 It is made from (need to fill in) nerves phoenix example, openc2 lycan, blinkchain
 
+Master branch is 'rainbow' config for 8x8 matrix (don't forget "export MIX_TARGET=rpi0")
+
+String50 branch is for string of 50 leds (don't forget "export MIX_TARGET=rpi4")
+
+Blinkt branch is for 8x1 Pimoroni Blinkt! pi-hat
+
+Hardware config for string:
+1. attach purple wire to rpi4 gpio pin 12 (BCM 18/PWM0)
+     - see https://pinout.xyz/
+2. attach blue wire to rpi4 gpio pin 14 Ground
+3. Yellow wire should already be connected to strip middle connector
+4. connect power to rpi4 and strip
+
 
 # Hello Phoenix
 
