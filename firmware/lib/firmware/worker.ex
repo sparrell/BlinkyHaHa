@@ -10,7 +10,7 @@ defmodule Firmware.Worker do
 
   alias Blinkchain.Point
 
-  @@moduledoc """
+  @moduledoc """
   State is the persistent state of the genserver
   e.g. the reference to the timer, some predetermined colors,
   a counter to tell how long you have iterating,
