@@ -177,6 +177,16 @@ defmodule UiWeb.OC2Controller do
     set_matrix_rainbow(conn)
   end
 
+  defp do_action_set_led_pattern(conn,attr) when attr == "red" do
+    Logger.debug "do_action_set_led_pattern red"
+    set_matrix_red(conn)
+  end
+
+  defp do_action_set_led_pattern(conn,attr) when attr == "purple" do
+    Logger.debug "do_action_set_led_pattern purple"
+    set_matrix_purple(conn)
+  end
+
 
   defp check_one_map_key(in_map) do
     ## check it is a map and has one key.
@@ -337,6 +347,17 @@ defmodule UiWeb.OC2Controller do
     Firmware.Worker.rainbow()
     json(conn, %{status: :ok})
   end
+
+  defp set_matrix_red(conn) do
+    Firmware.Worker.red()
+    json(conn, %{status: :ok})
+  end
+
+  defp set_matrix_purple(conn) do
+    Firmware.Worker.purple()
+    json(conn, %{status: :ok})
+  end
+
 
 
 end
