@@ -37,13 +37,20 @@ defmodule Firmware.Worker do
     GenServer.call(__MODULE__, :purple)
   end
 
-
   @doc """
   public api to change to rainbow pattern
   """
   def rainbow() do
     GenServer.call(__MODULE__, :rainbow)
   end
+
+  @doc """
+  public api to change to blue pattern
+  """
+  def blue() do
+    GenServer.call(__MODULE__, :blue)
+  end
+
 
   def start_link(opts \\ []) do
     GenServer.start_link(__MODULE__, opts, name: __MODULE__)
