@@ -3,6 +3,7 @@ defmodule UiWeb.OC2Controller do
   use UiWeb, :controller
 
   def command(conn, params) do
+    Logger.debug "oc2_controller command #{inspect params}"
     ## check top level components of command json
     tops = Map.keys(params)
     cond do
