@@ -1,10 +1,12 @@
 # BlinkyHaHa
 
-![](./docs/blinky.mp4)
-
 <video width="320" height="240" controls>
   <source src="./docs/blinky.mp4" type="video/mp4">
 </video>
+
+https://youtu.be/RcnRFfFtKQY
+
+[![Alt text](https://img.youtube.com/vi/RcnRFfFtKQY/0.jpg)](https://www.youtube.com/watch?v=RcnRFfFtKQY)
 
 Demo code for talk on IoT Safety. Blinky - the "Hello World" of IoT. HaHa - the "Hello World" of OpenC2.
 
