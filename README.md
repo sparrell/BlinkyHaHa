@@ -1,4 +1,7 @@
 # BlinkyHaHa
+
+![](./docs/blinky.mp4)
+
 Demo code for talk on IoT Safety. Blinky - the "Hello World" of IoT. HaHa - the "Hello World" of OpenC2.
 
 It is made from (need to fill in) nerves phoenix example, openc2 lycan, blinkchain
