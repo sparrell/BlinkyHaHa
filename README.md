@@ -1,6 +1,6 @@
 # BlinkyHaHa
 
-[![blinky](./docs/blinky.jpeg](https://www.youtube.com/watch?v=RcnRFfFtKQY)
+[![blinky](./docs/blinky.jpeg)](https://www.youtube.com/watch?v=RcnRFfFtKQY)
 
 Click on image for video. Switching rainbow/purple/red/rainbow done via OpenC2 commands.
 
